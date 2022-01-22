@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.navigation {
+  margin-top: 30px;
+}
+
+#hero {
+  width: 100vw;
+}
+
+#hero #left {
+  padding-left: 0;
+}
+
+#hero #right {
+  padding-right: 0;
+}
+/*# sourceMappingURL=styles.css.map */
