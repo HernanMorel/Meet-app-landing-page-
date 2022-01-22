@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -25,13 +26,72 @@ $whiteness: rgb(250, 250, 250);
   margin-top: 30px;
 }
 
+//this creates a container-fluid, thus giving you full width
 #hero {
-  width: 100vw;
-
-  #left {
-    padding-left: 0;
+  width: 100%;
+  max-width: initial;
+  > .row {
+    margin: 0;
+    > .col {
+      padding: 0 1.5em;
+    }
+    #left {
+      margin-top: 1em;
+    }
+    #right {
+      margin-top: 3em;
+    }
   }
-  #right {
-    padding-right: 0;
+  h1 {
+    color: $darkness;
+    font-weight: bold;
+    font-size: 4em;
+  }
+  p {
+    color: $darkness;
+    line-height: 1.625em;
+    font-weight: 500;
+  }
+}
+#button-container {
+  margin-top: 3em;
+
+  .button-1 {
+    background-color: $darkTeal;
+    color: $whiteness;
+    border-color: transparent;
+    font-weight: 900;
+    width: 193px;
+    padding: 1em;
+    border-radius: 29px;
+    margin: 0 0.5em;
+  }
+  #version {
+    color: $cyan;
+  }
+  :hover {
+    background-color: rgba(143, 227, 249, 0.6);
+  }
+}
+.button-2 {
+  background-color: $darkViolet;
+  color: $whiteness;
+  border-color: transparent;
+  font-weight: 900;
+  width: 139px;
+  padding: 1em;
+  border-radius: 29px;
+  margin: 0 0.5em;
+}
+
+.parallax-section {
+  margin-top: 2em;
+  background-color: rgba(77, 150, 168, 0.5);
+  #para-image {
+    width: 100vw;
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }

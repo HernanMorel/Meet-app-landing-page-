@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +19,82 @@ body {
 }
 
 #hero {
+  width: 100%;
+  max-width: initial;
+}
+
+#hero > .row {
+  margin: 0;
+}
+
+#hero > .row > .col {
+  padding: 0 1.5em;
+}
+
+#hero > .row #left {
+  margin-top: 1em;
+}
+
+#hero > .row #right {
+  margin-top: 3em;
+}
+
+#hero h1 {
+  color: #28283d;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+#hero p {
+  color: #28283d;
+  line-height: 1.625em;
+  font-weight: 500;
+}
+
+#button-container {
+  margin-top: 3em;
+}
+
+#button-container .button-1 {
+  background-color: #4d96a8;
+  color: #fafafa;
+  border-color: transparent;
+  font-weight: 900;
+  width: 193px;
+  padding: 1em;
+  border-radius: 29px;
+  margin: 0 0.5em;
+}
+
+#button-container #version {
+  color: #8fe3f9;
+}
+
+#button-container :hover {
+  background-color: rgba(143, 227, 249, 0.6);
+}
+
+.button-2 {
+  background-color: #855fb1;
+  color: #fafafa;
+  border-color: transparent;
+  font-weight: 900;
+  width: 139px;
+  padding: 1em;
+  border-radius: 29px;
+  margin: 0 0.5em;
+}
+
+.parallax-section {
+  margin-top: 2em;
+  background-color: rgba(77, 150, 168, 0.5);
+}
+
+.parallax-section #para-image {
   width: 100vw;
-}
-
-#hero #left {
-  padding-left: 0;
-}
-
-#hero #right {
-  padding-right: 0;
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
