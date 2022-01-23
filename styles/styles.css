@@ -74,6 +74,10 @@ body {
   background-color: rgba(143, 227, 249, 0.6);
 }
 
+#button-container :hover #version {
+  display: none;
+}
+
 .button-2 {
   background-color: #855fb1;
   color: #fafafa;
@@ -96,5 +100,49 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.features {
+  margin-top: 5em;
+}
+
+.features .slogan {
+  color: #4d96a8;
+  font-weight: 900;
+  line-height: 1.625em;
+  font-size: 1em;
+  letter-spacing: 4px;
+}
+
+.features .sub-slogan {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.features p {
+  color: #87879d;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.625em;
+}
+
+.page-image {
+  margin-top: 8em;
+}
+
+#summary {
+  background-color: rgba(217, 184, 255, 0.5);
+  background-image: url("./assets/desktop/image-footer.jpg");
+  width: 100%;
+  max-width: initial;
+}
+
+#summary > .row {
+  margin: 0;
+}
+
+#summary > .row > .col {
+  padding: 0 1.5em;
 }
 /*# sourceMappingURL=styles.css.map */
