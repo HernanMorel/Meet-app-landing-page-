@@ -163,8 +163,39 @@ footer {
   background-color: rgba(135, 135, 157, 0.1);
 }
 
+@media only screen and (min-width: 375px) {
+  #hero {
+    .left {
+      width: 100%;
+      height: 100%;
+      margin-top: 0;
+    }
+
+    .button-2 {
+      margin-top: 1em;
+    }
+  }
+}
+
 @media only screen and (min-width: 768px) {
-  //   // #para-image {
-  //   //   width: 90%;
-  //   // }
+  #left {
+    width: 70%;
+    margin: 0 9em;
+  }
+}
+@media only screen and (min-width: 770px) {
+  #left {
+    width: 100%;
+    margin: 0;
+  }
+  .left {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+  .right {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
 }
