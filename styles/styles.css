@@ -66,16 +66,12 @@ body {
   margin: 0 0.5em;
 }
 
-#button-container #version {
-  color: #8fe3f9;
-}
-
-#button-container :hover {
+#button-container .button-1:hover {
   background-color: rgba(143, 227, 249, 0.6);
 }
 
-#button-container :hover #version {
-  display: none;
+#button-container #version {
+  color: #8fe3f9;
 }
 
 .button-2 {
@@ -89,17 +85,13 @@ body {
   margin: 0 0.5em;
 }
 
-.parallax-section {
-  margin-top: 2em;
-  background-color: rgba(77, 150, 168, 0.5);
+.button-2:hover {
+  background-color: rgba(143, 227, 249, 0.6);
 }
 
-.parallax-section #para-image {
-  width: 100vw;
-  min-height: 1000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+.parallax-section-1 {
+  margin-top: 2em;
+  background-color: rgba(77, 150, 168, 0.5);
 }
 
 .features {
@@ -115,6 +107,7 @@ body {
 }
 
 .features .sub-slogan {
+  color: #28283d;
   font-size: 2.5em;
   font-weight: 900;
   margin-bottom: 1em;
@@ -127,32 +120,56 @@ body {
   line-height: 1.625em;
 }
 
-.page-image {
-  margin-top: 8em;
-}
-
-.summary-section {
+.parallax-section-2 {
+  margin-top: 5em;
   background-color: rgba(217, 184, 255, 0.5);
 }
 
-.summary-section #summary {
-  background-image: url("../assets/desktop/image-footer.jpg");
-  width: 100%;
-  height: 19.25em;
-  max-width: initial;
-  margin-top: 0em;
-  padding-top: 0;
+.features-2 .col {
+  margin-bottom: 3em;
 }
 
-.summary-section #summary > .row {
+.features-2 .sub-slogan {
+  color: #28283d;
+  font-size: 2.5em;
+  font-weight: 900;
   margin: 0;
 }
 
-.summary-section #summary > .row > .col {
-  padding: 0 1.5em;
+.features-2 p {
+  margin-top: 2em;
+  color: #87879d;
+  font-size: 1.125em;
+  font-weight: 500;
+  line-height: 1.625em;
 }
 
-.summary-section #summary h4 {
-  margin-top: 0;
+.final-button {
+  margin-top: 2em;
+}
+
+.final-button .button-3 {
+  margin-top: 8em;
+  background-color: #855fb1;
+  color: #fafafa;
+  border-color: transparent;
+  font-weight: 900;
+  width: 193px;
+  padding: 1em;
+  border-radius: 29px;
+  margin: 0 0.5em;
+}
+
+.final-button .button-3:hover {
+  background-color: rgba(217, 184, 255, 0.6);
+}
+
+.final-button #version-span {
+  color: #d9b8ff;
+}
+
+footer {
+  margin-top: 9em;
+  background-color: rgba(135, 135, 157, 0.1);
 }
 /*# sourceMappingURL=styles.css.map */

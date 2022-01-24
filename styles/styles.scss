@@ -65,15 +65,12 @@ $whiteness: rgb(250, 250, 250);
     padding: 1em;
     border-radius: 29px;
     margin: 0 0.5em;
+    &:hover {
+      background-color: rgba(143, 227, 249, 0.6);
+    }
   }
   #version {
     color: $cyan;
-  }
-  :hover {
-    background-color: rgba(143, 227, 249, 0.6);
-    #version {
-      display: none;
-    }
   }
 }
 .button-2 {
@@ -85,18 +82,14 @@ $whiteness: rgb(250, 250, 250);
   padding: 1em;
   border-radius: 29px;
   margin: 0 0.5em;
+  &:hover {
+    background-color: rgba(143, 227, 249, 0.6);
+  }
 }
 
-.parallax-section {
+.parallax-section-1 {
   margin-top: 2em;
   background-color: rgba(77, 150, 168, 0.5);
-  #para-image {
-    width: 100vw;
-    min-height: 1000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
 }
 
 .features {
@@ -109,6 +102,7 @@ $whiteness: rgb(250, 250, 250);
     letter-spacing: 4px;
   }
   .sub-slogan {
+    color: $darkness;
     font-size: 2.5em;
     font-weight: 900;
     margin-bottom: 1em;
@@ -120,28 +114,57 @@ $whiteness: rgb(250, 250, 250);
     line-height: 1.625em;
   }
 }
-
-.page-image {
-  margin-top: 8em;
+.parallax-section-2 {
+  margin-top: 5em;
+  background-color: rgba(217, 184, 255, 0.5);
 }
 
-.summary-section {
-  background-color: rgba(217, 184, 255, 0.5);
-  #summary {
-    background-image: url("../assets/desktop/image-footer.jpg");
-    width: 100%;
-    height: 19.25em;
-    max-width: initial;
-    margin-top: 0em;
-    padding-top: 0;
-    > .row {
-      margin: 0;
-      > .col {
-        padding: 0 1.5em;
-      }
-    }
-    h4 {
-      margin-top: 0;
+.features-2 {
+  .col {
+    margin-bottom: 3em;
+  }
+  .sub-slogan {
+    color: $darkness;
+    font-size: 2.5em;
+    font-weight: 900;
+    margin: 0;
+  }
+  p {
+    margin-top: 2em;
+    color: $grey;
+    font-size: 1.125em;
+    font-weight: 500;
+    line-height: 1.625em;
+  }
+}
+.final-button {
+  margin-top: 2em;
+  .button-3 {
+    margin-top: 8em;
+    background-color: $darkViolet;
+    color: $whiteness;
+    border-color: transparent;
+    font-weight: 900;
+    width: 193px;
+    padding: 1em;
+    border-radius: 29px;
+    margin: 0 0.5em;
+    &:hover {
+      background-color: rgba(217, 184, 255, 0.6);
     }
   }
+  #version-span {
+    color: $violet;
+  }
+}
+
+footer {
+  margin-top: 9em;
+  background-color: rgba(135, 135, 157, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+  //   // #para-image {
+  //   //   width: 90%;
+  //   // }
 }

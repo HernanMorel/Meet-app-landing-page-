@@ -4,6 +4,8 @@
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Font-Awesome icons-->
+  <script src="https://kit.fontawesome.com/2cbe9f842e.js" crossorigin="anonymous"></script>
   <!--Google-Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +36,7 @@
     <div class="container" id="hero">
       <div class="row">
         <div class="col s12 m2" id="left">
-          <img class="left" src="assets/desktop/image-hero-left.png" alt="">
+          <img class="left" src="assets/desktop/image-hero-left.png" alt="users">
         </div>
         <div class="col s12 m8">
           <h1 class="center">Group Chat <br> for Everyone</h1>
@@ -51,13 +53,13 @@
           </div>
         </div>
         <div class="col s12 m2" id="right">
-          <img class="right" src="assets/desktop/image-hero-right.png" alt="">
+          <img class="right" src="assets/desktop/image-hero-right.png" alt="users">
         </div>
       </div>
     </div>
-    <section class="parallax-section">
+    <section class="parallax-section-1">
       <div class="parallax-container">
-        <div class="parallax"><img id="para-image" src="assets/desktop/image-team-meeting.jpg">
+        <div class="parallax"><img class="responsive-img" id="para-image" src="assets/desktop/image-team-meeting.jpg">
         </div>
       </div>
     </section>
@@ -104,6 +106,13 @@
         </div>
       </div>
     </section>
+    <section class="parallax-section-2">
+      <div class="parallax-container" id="parallax-2">
+        <div class="parallax">
+          <img src="assets/desktop/image-group-chat.jpg" class="responsive-img">
+        </div>
+      </div>
+    </section>
     <section class="page-image">
       <div class="container center">
         <div class="row">
@@ -113,24 +122,33 @@
         </div>
       </div>
     </section>
-    <section class="summary-section">
-      <div class="container" id="summary">
-        <div class="row">
-          <div class="cols12 m4">
-            <h4> Experience more together</h4>
-          </div>
-          <div class="cols12 m4 center">
-            <p> Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-          </div>
-          <div class="cols12 m4">
-            <button class="footer-button">Download v1.3</button>
+    <section>
+      <section class="features-2">
+        <div class="container">
+          <div class="row">
+            <div class="cols12 center">
+              <h3 class="sub-slogan "> Experience more <br> together</h3>
+              <p class=""> Stay connected with reliable HD meetings <br> and unlimited one-on-one and group video
+                sessions.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <div>
+        <section class="final-button">
+          <div class="container center" id="button-container">
+            <div class="row">
+              <div class="col s12">
+                <button class="button-3">Download <span id="version-span">v1.3</span></button>
+              </div>
+            </div>
+          </div>
+        </section>
   </main>
-  <footer>
-
+  <footer class="black-text center">
+    <span>&copy; 2022, <a href="https://github.com/HernanMorel" target="_blank"><i class="fab fa-github"></i> Hernán
+        Morel</a></span>
   </footer>
 
 
@@ -156,6 +174,7 @@
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/main.js"></script>
+
 </body>
 
 </html>
