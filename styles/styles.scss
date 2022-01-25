@@ -35,10 +35,10 @@ $whiteness: rgb(250, 250, 250);
     > .col {
       padding: 0 1.5em;
     }
-    #left {
+    .left {
       margin-top: 1em;
     }
-    #right {
+    .right {
       margin-top: 3em;
     }
   }
@@ -163,39 +163,42 @@ footer {
   background-color: rgba(135, 135, 157, 0.1);
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   #hero {
     .left {
       width: 100%;
-      height: 100%;
-      margin-top: 0;
     }
-
-    .button-2 {
+    #left {
+      width: auto;
       margin-top: 1em;
     }
+    .button-2 {
+      margin-top: 0.5em;
+    }
+  }
+  #para-image {
+    object-fit: cover;
+    background-position: center;
+  }
+  #para-image-2 {
+    object-fit: cover;
+    background-position: center;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  #left {
-    width: 70%;
-    margin: 0 9em;
-  }
-}
-@media only screen and (min-width: 770px) {
-  #left {
-    width: 100%;
-    margin: 0;
-  }
   .left {
     width: 100%;
-    height: 100%;
-    margin-top: 0;
   }
-  .right {
-    width: 100%;
-    height: 100%;
-    margin-top: 0;
+  #left {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 2100px) {
+  #left {
+    width: 70%;
+  }
+  #right {
+    width: 70%;
   }
 }
