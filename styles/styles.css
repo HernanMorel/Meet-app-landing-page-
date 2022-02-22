@@ -48,7 +48,9 @@ body {
 #hero p {
   color: #28283d;
   line-height: 1.625em;
+  color: #717181;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 #button-container {
@@ -114,8 +116,8 @@ body {
 }
 
 .features p {
-  color: #87879d;
-  font-size: 1.125em;
+  color: #717181;
+  font-size: 1.2em;
   font-weight: 500;
   line-height: 1.625em;
 }
@@ -138,8 +140,8 @@ body {
 
 .features-2 p {
   margin-top: 2em;
-  color: #87879d;
-  font-size: 1.125em;
+  color: #717181;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.625em;
 }
@@ -169,11 +171,16 @@ body {
 }
 
 footer {
-  margin-top: 9em;
-  background-color: rgba(135, 135, 157, 0.1);
+  margin-top: 20em;
+  background-color: #fafafa;
 }
 
-@media only screen and (max-width: 375px) {
+footer a {
+  text-decoration: none;
+  color: #262626;
+}
+
+@media only screen and (max-width: 768px) {
   #hero .left {
     width: 100%;
   }
@@ -184,33 +191,75 @@ footer {
   #hero .button-2 {
     margin-top: 0.5em;
   }
-  #para-image {
+  .parallax-section-1 #para-image {
     -o-object-fit: cover;
        object-fit: cover;
-    background-position: center;
-  }
-  #para-image-2 {
-    -o-object-fit: cover;
-       object-fit: cover;
-    background-position: center;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .left {
+    width: 100%;
+  }
+  .right {
     width: 100%;
   }
   #left {
     width: auto;
   }
+  #right {
+    width: auto;
+  }
+  #left {
+    width: auto;
+  }
+  .parallax-section-1 img {
+    width: 100%;
+  }
 }
 
-@media only screen and (min-width: 2100px) {
+@media only screen and (max-width: 2100px) {
   #left {
-    width: 70%;
+    width: auto;
   }
   #right {
-    width: 70%;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 3072px) {
+  nav img {
+    width: 13rem;
+  }
+  #left {
+    width: 55%;
+  }
+  #right {
+    width: 55%;
+  }
+  #hero h1 {
+    font-size: 5rem;
+  }
+  #hero p {
+    font-size: 2rem;
+  }
+  #button-container .button-1 {
+    width: 265px;
+  }
+  #button-container .button-2 {
+    width: 211px;
+  }
+  .features .slogan {
+    font-size: 1.5rem;
+  }
+  .features .sub-slogan {
+    font-size: 3.5rem;
+  }
+  .features p {
+    font-size: 2rem;
+  }
+  .features-2 p {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
