@@ -19,19 +19,18 @@ Esto fue más un reto de CSS que otra cosa. Aunque en términos de dificultad, l
 ---
 
 
-# TravelPy Agency
+# Landing Page for Meet
 
-This is a mock landing page for a Paraguayan Travel Agency. I built this using the Materialize CSS framework, and the Unsplash source for a selected rotation of pictures to be displayed in the image gallery. This was my first time using this framework and through some research, I found their documentation really helpful in the build-process of the site. This library comes off as a less-declarative alternative to the Bootstrap library and allows for much more customization, especially if it's paired with a CSS pre-processor like SASS/SCSS, both of which I ended up using. I was also able to implement the JS tools the framework provided for some auto-scroll features.
+Landing page for a mock company called Meet. This is meant to be used as a presentation webpage showcasing the various features this app has to offer. This uses the simplest version of the materialize CSS framework and its respectable tooling. I gathered some resources to make the final page more inline with what the application would offer if it were indeed real. I enjoyed making the page since it allowed me to get creative on how each of the elements were laid out and displayed. 
 
 ## Lessons Learned
 
-The syntax and customization of the framework has a bit of a learning curve, but I was able to resolve any issues I came across after reading their documentation and digging through some stack-overflow questions. I had to modify the Unsplash API to return images that made sense for what the site is offering, even though this is a mock project I wanted the images to make sense. If this were a real project, I would have opted to use actual images from the places the travel site has access to.
+This was more of a CSS challenge than anything else. Although in terms of difficulty, the styling-pages tend to be on the lower end of the spectrum in comparison to an actual programming language, I still found the challenge of making all the shown elements responsive and uncluttered a worthy one. The images of the different faces on both sides of the title header posed a minor inconvenience when it came time to resizing and centering. I was able to play around with the padding and margin of the surrounding elements to get them fit properly. 
 
 ## Potential Future Features
 
-* I would want to add the Google Maps API that allows users to find the locations of resorts/hotels/ and 'posadas' through the inline-map on the website. 
-* It would be nice if the page had a booking feature, in case it were real, customers could book their reservations to different places through the web app.
+* No realistic additions since it is a mock page, but if this were a real site for an actual company, I would have liked to add real routes which allow users to download the app. Along with some video tutorials or slides which describe the setup process.
 
 ## Deployment
 
-[This is an external link to the site] (https://hernanmorel.github.io/TravelPy-Agency-Site/)
+[This is an external link to the site](https://hernanmorel.github.io/TravelPy-Agency-Site/)
